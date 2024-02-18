@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.content{
+    height: 230px;
+    padding-left: 20px;
+}
+
+h2{
+    color: #305F6A;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: #42848E;
+    border-right: 2px solid #42848E;
+    border-bottom: 2px solid #42848E;
+    padding: 1px;
+    margin-top: 2px;
+    padding-right: 5px;
+    font-size: 0.92rem;
+    font-weight: 600;
+}
+
+.link:hover{
+    background-color: #42848E;
+    color: white;
+}
+
+.heading{
+    margin-top: 10px;
+    padding: 10px;   
+}
+
+h1{
+    color: #3498db;
+    margin-bottom: 3px;
+}
+
+#head3div{
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 515px;
+    margin-top: 20px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+iframe:hover{
+    border: 3px solid #3498db;
+}
+
+#icon1{
+    position: relative;
+    top: 3px;
+    animation: xmove 2s linear 0s infinite normal ;
+}
+
+@keyframes xmove {
+    from {transform: translateX(0px);}
+    to {transform: translateX(20px);}
+}
+
+#icon2{
+    animation: rotate 2s linear 0s infinite normal ;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+#icon3{
+    animation: rom 2s linear 0s infinite alternate ;
+}
+
+@keyframes rom {
+    from {transform: skew(10deg);}
+    to {transform: skew(-10deg);}
+}

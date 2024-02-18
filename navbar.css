@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+
+}#navbar{
+    height: 50px;
+    background-color: #131F2A;
+    opacity: 90%;
+    border-bottom: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#navbar1{
+    padding-left: 30px;
+}
+
+#navbar7{
+    padding-right: 30px;
+}
+
+.navanimation a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar1 i{
+    font-size: 1.5rem;
+}
+
+.navanimation{
+    transition: all 0.3s ease-in-out;
+}
+
+.navanimation:hover{
+    transform: scale(1.2);
+}

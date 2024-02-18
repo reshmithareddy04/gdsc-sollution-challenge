@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+/* styles.css */
+
+/* Interactive Map Section Styling */
+#map {
+    padding: 2em;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+#map h2 {
+    color: #3498db;
+}
+
+#map p {
+    color: #333;
+    line-height: 1.5;
+}
+
+#map-container {
+    margin-top: 20px;
+}
+
+/* Responsive Design for the Map Container */
+@media screen and (max-width: 600px) {
+    #map-container {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}

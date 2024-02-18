@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+body{
+    background-image: url("waves-3473335.jpg");
+    background-size: cover;
+}
+
+#main{
+    border-color: aquamarine;
+    color: white;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#main1{
+    font-size: 1.8rem;
+}
+
+#main2{
+    background-color: white;
+    color: #131F2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 5px;
+}
